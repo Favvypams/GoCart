@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27'
+);
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+:root{
+    --color1--:#897dbcb9;
+    --color2--:#18344c;
+    --color3--:#18344c2c;
+}
+.navbar{ 
+    background-color: var(--color2--);
+    padding: 5px 10px;
+    display: flex;}
+
+.logo{
+    width: 30%;
+}
+
+.menu{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: right;
+    list-style: none;
+}
+.menu.li{
+    margin-right: 20px;
+    font-size: 1.1em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua; 
+}
+.signup a{
+background-color: var(--color1--);
+padding: 7px;
+border-radius: 0px 10px 10px;
+}
+.signup a:hover{
+    color: var(--color2--);
+    background-color: white;
+}
+.menu-toggle{
+    display: none;
+}
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: bisque;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+
+.slider{
+    width: 100%;
+    position: relative;
+}
+.slide{
+    width: 100%;
+    height: 80vh;
+    display: none;
+}
+.slide-container{
+    position: relative;
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(245, 245, 220, 0.74);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 60px 30px;
+}
+
+.banner h1{
+    font-size: 5rem;
+    color: var(--color2--);
+}
+.banner p{
+    font-size: 1.2rem;
+    color: var(--color2--);
+    line-height: 1.5;
+}
+.content{
+    display: flex;
+    padding: 50px;
+    background-color: var(--color3--);
+    justify-content: space-between;
+}
+.content div{
+    width: 48%;
+}
+.content h2{
+    font-size: 3rem;
+}
+.content p{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.services{
+    background-color: var(--color2--);
+    padding: 25px;
+}
+
+.services h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.card{
+    background-color: var(--color1--);
+    width: 90%;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 30px 30px 30px;
+}
+.card img {
+    width: 100%;
+    border-radius: 60px 60px 60px;
+}
+.card p{
+    font-size: 1rem;
+    line-height: 1.3;
+}
+.card:hover{
+    border-radius: 0px;
+    transition: all 0.5s;
+}
+.card-container{
+    display: grid;
+    padding: 25px;
+    gap: 1px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+@media (max-width:900px) {
+    .menu{
+        display: none;
+    }
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .togglebar{
+        padding-top: 5px;
+        width: 7%;
+        margin-left: auto;
+    }
+    .logo{
+        width: 20%;
+    }
+    .logo img{
+        width: 60%;
+    }
+    .active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .active li{
+        font-size: 1.1rem;
+        margin-top: 7px;
+        width: 90%;
+        text-align: center;
+    }
+    .active li:hover{
+        background-color: var(--color1--);
+    }
+    .active li a:hover{
+        color: antiquewhite;
+    }
+    .signup{
+        background-color: var(--color1--);
+    }
+    .signup a{
+        background-color: var(--color2--);
+    padding: 0%;
+    }
+    .signup a:hover{
+        background-color: var(--color1--);
+    }
+    .banner{
+        width: 90%;
+    }
+    .banner h1{font-size: 2.5rem;
+    }
+    .banner p{
+        font-size: 0.8rem;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content div {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* li img{
+    width: 50px;
+}
+header{
+    background-image: url(images/aaaa.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    background-color: chocolate;
+}
+.navigation{
+    width: 85%;
+    list-style: none;
+    display: flex;
+    padding-top: 5px;
+}
+.navigation a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: bisque;
+}
+.log{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding-top: 5px;
+}
+.log a{
+    color: blanchedalmond;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.signup{
+    padding: 5px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.signup:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.banner{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+.banner h1{
+    font-size: 5rem;
+    color: blanchedalmond;
+}
+.banner p{
+    font-size: 1.2rem;
+    color: burlywood;
+}
+.content{
+    display: flex;
+    padding: 50px;
+    background-color: chocolate;
+    justify-content: space-between;
+}
+.content div{
+    width: 48%;
+}
+
+.content h2{
+    font-size: 3rem;
+}
+.content p{
+    text-align: justify;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card{
+    width: 30%;
+    background-color: chocolate;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.171);
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.card-content p{
+    font-size: 17px;
+    line-height: 1.3;
+
+}
+.btn{
+    display: inline-block;
+    background-color: coral;
+    text-decoration: none;
+    color: cornsilk;
+    padding: 9px 16px;
+    margin-top: 12px;
+    border-radius: 10px 60px 30px;
+}
+.btn:hover{
+    background-color: darkblue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.212);
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: translate3d(0px, 10px, 0px);
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card img:hover{
+transform: scale(1.05);
+transition: all 0.5s;
+}
+@media screen and (max-width: 900px) {
+.content{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.content div {
+    width: 100%;
+}
+.card-container{
+    flex-direction: column;
+    align-items: center;
+} */
